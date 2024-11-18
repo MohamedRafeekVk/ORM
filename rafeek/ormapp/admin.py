@@ -1,4 +1,3 @@
 from django.contrib import admin
-from .models import Employee,EmployeeAdmin
-
-admin.site.register(Employee,EmployeeAdmin)
+from.models import Bank,BankAdmin
+admin.site.register(Bank,BankAdmin)
